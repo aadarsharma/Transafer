@@ -1,5 +1,4 @@
-# Virtual Moneybag
-Digital wallet 💰
+# Transafer
 
 This repository contains both the frontend and backend code for a digital wallet system. Explore the features of the app, including signup, signin, filter search, and money transfer, etc.
 
