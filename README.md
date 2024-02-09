@@ -23,9 +23,9 @@ This repository contains both the frontend and backend code for a digital wallet
 To set up the application locally, follow these instructions:
 
 1. **Clone the Repository:**
-   ```bash
-   git clone https://github.com/parthsolanke/virtual-moneybag
-   cd virtual-moneybag
+   ```bash[
+   git colne https://github.com/aadarsharma/Transafer.git
+   cd transafer
    ```
 
 2. **Set MongoDB Password as Environment Variable:**
@@ -54,5 +54,3 @@ To set up the application locally, follow these instructions:
    ```bash
    npm run dev
    ```
-
-   The application will be accessible at [http://localhost:5173/signup](http://localhost:5173/signup).
