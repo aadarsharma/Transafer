@@ -5,33 +5,21 @@ This repository contains both the frontend and backend code for a digital wallet
 ## Features
 
 ### 1. Signup
-![Signup Page](./frontend/public/wsignup.png)
-
 - **Description:** Users can create a new account by providing their email, password, first name, and last name.
   
 ### 2. Signin
-![Signin Page](./frontend/public/wsignin.png)
-
 - **Description:** Existing users can log in to their accounts by entering their email and password.
 
 ### 3. Dashboard
-![Dashboard Page](./frontend/public/wdashboard.png)
-
 - **Description:** The Dashboard provides an overview of the user's digital wallet, displaying essential information and features related to their account.
 
 ### 4. SendMoney
-![SendMoney Page](./frontend/public/wtransfer.png)
-![SendMoney Page1](./frontend/public/wtransfer1.png)
-
 - **Description:** Users can send money to others by specifying the recipient and the amount to be transferred.
 
 ### 5. Filter Search
-![Filter Search](./frontend/public/wfilter.png)
-
 - **Description:** Users can search for other users based on filters such as first name, last name, or username.
 
 ## Local Setup Instructions
-
 To set up the application locally, follow these instructions:
 
 1. **Clone the Repository:**
