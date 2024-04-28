@@ -1,0 +1,22 @@
+{
+  "node": {
+    "1922b6a3027b8e6d3345eeaafa209e5797315c1e": {
+      "workers": {
+        "app/(dashboard)/transfer/page": "(action-browser)/../../node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Faadarshsharma%2FDocuments%2Fcohort-2%2Fweek-17-final-code%2Fapps%2Fuser-app%2Fapp%2Flib%2Factions%2FcreateOnRamptxn.ts%22%2C%5B%22createOnRampTransactions%22%5D%5D%5D&__client_imported__=true!"
+      },
+      "layer": {
+        "app/(dashboard)/transfer/page": "action-browser"
+      }
+    },
+    "e362f2c6f4053cdd023cccc7c366e61586c28537": {
+      "workers": {
+        "app/(dashboard)/p2p/page": "(action-browser)/../../node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Faadarshsharma%2FDocuments%2Fcohort-2%2Fweek-17-final-code%2Fapps%2Fuser-app%2Fapp%2Flib%2Factions%2Fp2pTransfer.ts%22%2C%5B%22p2pTransfer%22%5D%5D%5D&__client_imported__=true!"
+      },
+      "layer": {
+        "app/(dashboard)/p2p/page": "action-browser"
+      }
+    }
+  },
+  "edge": {},
+  "encryptionKey": "PuxRyFsZM5h0+fkM+c4PIlRAijGUCg4NnZZCZYCIldY="
+}

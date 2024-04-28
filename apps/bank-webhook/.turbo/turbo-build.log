@@ -1,0 +1,8 @@
+
+> bank-webhook@1.0.0 build
+> npx esbuild ./src/index.ts --bundle --platform=node --outfile=dist/index.js
+
+
+  [37mdist/[0m[1mindex.js[0m  [33m1.4mb ⚠️[0m
+
+⚡ [32mDone in 86ms[0m

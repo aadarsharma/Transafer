@@ -1,0 +1,20 @@
+
+> docs@1.0.0 build
+> next build
+
+  [1m[38;2;173;127;168m ▲ Next.js 14.1.4[39m[22m
+   - Environments: .env
+
+
+> Build error occurred
+[Error: EACCES: permission denied, unlink '/Users/aadarshsharma/Documents/cohort-2/week-17-final-code/apps/user-app/.next/server/_error.js'] {
+  errno: [33m-13[39m,
+  code: [32m'EACCES'[39m,
+  syscall: [32m'unlink'[39m,
+  path: [32m'/Users/aadarshsharma/Documents/cohort-2/week-17-final-code/apps/user-app/.next/server/_error.js'[39m
+}
+[37;40mnpm[0m [0m[31;40mERR![0m [0m[35mLifecycle script `build` failed with error:[0m 
+[0m[37;40mnpm[0m [0m[31;40mERR![0m [0m[35mError: command failed[0m 
+[0m[37;40mnpm[0m [0m[31;40mERR![0m [0m[35m  in workspace: docs@1.0.0[0m 
+[0m[37;40mnpm[0m [0m[31;40mERR![0m [0m[35m  at location: /Users/aadarshsharma/Documents/cohort-2/week-17-final-code/apps/user-app[0m 
+[0m
