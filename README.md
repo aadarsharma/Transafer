@@ -1,4 +1,4 @@
-# Transafer: A Next.js Digital Wallet Application
+# Transafer: A Digital Wallet Application
 
 Transafer is a modern digital wallet application built with Next.js, Tailwind CSS, and TypeScript. It allows users to sign up, sign in, transfer money to other users, and add money to their wallets. The application integrates with real banks using dummy endpoints created with Express.js. Transafer provides a secure and user-friendly platform for managing finances online.
 
