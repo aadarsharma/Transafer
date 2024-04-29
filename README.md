@@ -25,46 +25,6 @@ Transafer is a modern digital wallet application built with Next.js, Tailwind CS
 - **Description:** The transactions page provides users with a detailed list of all their transactions. Users can see the date, time, and amount of each transaction, as well as the status (completed, pending, etc.). 
 
 ### 5. P2P Transfer
-![Filter Search](./frontend/public/wfilter.png)
+![Filter Search](./images/4.png)
 
 - **Description:** The P2P transfer feature allows users to transfer money to another person using their mobile number. Users can easily send money to friends, family, or anyone else in their contact list, making payments quick and hassle-free.
-
-## Local Setup Instructions
-
-To set up the application locally, follow these instructions:
-
-1. **Clone the Repository:**
-   ```bash
-   git clone https://github.com/aadarsharma/Transafer.git
-   cd Transafer
-   ```
-
-2. **Set MongoDB Password as Environment Variable:**
-   ```bash
-   export MONGO_PW="Your-Password"
-   ```
-
-3. **Install Backend Dependencies:**
-   ```bash
-   cd backend
-   npm install
-   ```
-
-4. **Run Backend Server:**
-   ```bash
-   node index.js
-   ```
-
-5. **Install Frontend Dependencies:**
-   ```bash
-   cd ../frontend
-   npm install
-   ```
-
-6. **Run Frontend Development Server:**
-   ```bash
-   npm run dev
-   ```
-
-   The application will be accessible at [http://localhost:3000/signup](http://localhost:3000/signup).
-
