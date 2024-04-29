@@ -1,29 +1,33 @@
-# Transafer
+# Transafer: A Next.js Digital Wallet Application
 
-This repository contains both the frontend and backend code for a digital wallet system. Explore the features of the app, including signup, signin, filter search, and money transfer, etc.
+Transafer is a modern digital wallet application built with Next.js, Tailwind CSS, and TypeScript. It allows users to sign up, sign in, transfer money to other users, and add money to their wallets. The application integrates with real banks using dummy endpoints created with Express.js. Transafer provides a secure and user-friendly platform for managing finances online.
 
 ## Features
 
-### 1. Signin
+### 1. Signup/Signin
 ![Signin Page](./images/signin.png)
 
-- **Description:** Users can create a new account by providing their email, password, first name, and last name.
+- **Description:** Easily create a new account or sign in to your existing account.
 
 ### 2. Dashboard
 ![Dashboard Page](./images/1.png)
 
-- **Description:** The Dashboard provides an overview of the user's digital wallet, displaying essential information and features related to their account.
+- **Description:** The dashboard provides users with a comprehensive overview of their account, including their current balance, recent transactions, and any pending actions. 
 
-### 4. SendMoney
-![SendMoney Page](./frontend/public/wtransfer.png)
-![SendMoney Page1](./frontend/public/wtransfer1.png)
+### 3. Transfer
+![Transfer Page](./images/2.png)
 
-- **Description:** Users can send money to others by specifying the recipient and the amount to be transferred.
+- **Description:** The transfer page allows users to add money to their wallet from different banks. Users can choose the bank from which they want to add money, providing flexibility and convenience.
 
-### 5. Filter Search
+### 4. Transactions
+![Transactions Page](./images/3.png)
+
+- **Description:** The transactions page provides users with a detailed list of all their transactions. Users can see the date, time, and amount of each transaction, as well as the status (completed, pending, etc.). 
+
+### 5. P2P Transfer
 ![Filter Search](./frontend/public/wfilter.png)
 
-- **Description:** Users can search for other users based on filters such as first name, last name, or username.
+- **Description:** The P2P transfer feature allows users to transfer money to another person using their mobile number. Users can easily send money to friends, family, or anyone else in their contact list, making payments quick and hassle-free.
 
 ## Local Setup Instructions
 
@@ -31,8 +35,8 @@ To set up the application locally, follow these instructions:
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/parthsolanke/virtual-moneybag
-   cd virtual-moneybag
+   git clone https://github.com/aadarsharma/Transafer.git
+   cd Transafer
    ```
 
 2. **Set MongoDB Password as Environment Variable:**
@@ -62,5 +66,5 @@ To set up the application locally, follow these instructions:
    npm run dev
    ```
 
-   The application will be accessible at [http://localhost:5173/signup](http://localhost:5173/signup).
+   The application will be accessible at [http://localhost:3000/signup](http://localhost:3000/signup).
 
