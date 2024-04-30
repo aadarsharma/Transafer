@@ -12,7 +12,7 @@ Transafer is a modern digital wallet application built with Next.js, Tailwind CS
 ### 2. Dashboard
 ![Dashboard Page](./images/1.png)
 
-- **Description:** The dashboard provides users with a comprehensive overview of their account, including their current balance, recent transactions, and any pending actions. 
+- **Description:** The dashboard provides users with a comprehensive overview of their account. 
 
 ### 3. Transfer
 ![Transfer Page](./images/2.png)
@@ -22,7 +22,7 @@ Transafer is a modern digital wallet application built with Next.js, Tailwind CS
 ### 4. Transactions
 ![Transactions Page](./images/3.png)
 
-- **Description:** The transactions page provides users with a detailed list of all their transactions. Users can see the date, time, and amount of each transaction, as well as the status (completed, pending, etc.). 
+- **Description:** The transactions page provides users with a detailed list of all their transactions. Users can see the date and amount of each transaction. 
 
 ### 5. P2P Transfer
 ![Filter Search](./images/4.png)
