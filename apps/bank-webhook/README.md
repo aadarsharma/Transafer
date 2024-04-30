@@ -7,10 +7,10 @@
 - HDFC Bank
 
 ![Proccessing 100](./bank-webhook-images/7.png)
-- Processing 100
+- 100 did not get added to wallet because the request hasn't been fetched by the bank server
 
 ![Prisma](./bank-webhook-images/8.png)
-- Prisma
+- Processing 100
 
 ![Authorising the request](./bank-webhook-images/10.png)
 - Authorising the request
