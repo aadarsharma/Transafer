@@ -43,4 +43,52 @@ Transafer is a modern digital wallet application built with Next.js, Tailwind CS
 - **Monorepo:** The application is structured as a monorepo, allowing for the management of multiple packages or modules within a single repository. This helps to organize the codebase and streamline the development process.
 Overall, the system architecture of the Transafer digital wallet application is designed to be scalable, secure, and efficient, providing users with a seamless and reliable platform for managing their finances online.
 
+## Getting Started
 
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/aadarsharma/Transafer.git
+```
+
+### 2. Install Dependencies
+
+```bash
+npm install
+```
+
+### 3. Run PostgreSQL
+
+You can run PostgreSQL either locally or on the cloud. For local development, you can use Docker with the following command:
+
+```bash
+docker run -e POSTGRES_PASSWORD=mysecretpassword -d -p 5432:5432 postgres
+```
+
+### 4. Copy and Update Environment Variables
+
+Copy over all `.env.example` files to `.env` and update the `.env` files with the correct database URL.
+
+### 5. Run Prisma Migrations
+
+Navigate to the `packages/db` directory and run the following commands:
+
+```bash
+npx prisma migrate dev
+npx prisma db seed
+```
+
+### 6. Start the User App
+
+Navigate to the `apps/user-app` directory and run the following command to start the application:
+
+```bash
+npm run dev
+```
+
+### 7. Login to the Application
+
+Try logging in using the following credentials:
+
+- Phone: 1111111111
+- Password: alice (See `seed.ts` for more details)
