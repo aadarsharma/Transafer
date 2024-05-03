@@ -1,4 +1,4 @@
-# WWorking of the Dummy Endpoints
+# Working of the Dummy Endpoints
 
 ### 1. Adding Money
 ![Adding 100](./bank-webhook-images/5.png)
