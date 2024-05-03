@@ -41,7 +41,6 @@ Transafer is a modern digital wallet application built with Next.js, Tailwind CS
 - **Middleware:** Middleware functions are used in Express.js to handle common tasks such as logging, error handling, and request processing. Middleware helps to streamline the application's workflow and improve its performance and reliability.
 - **Dummy Endpoints:** Express.js is used to create dummy endpoints that simulate how banks add money to the digital wallet. These endpoints are used for testing and demonstration purposes only and do not interact with real banking systems.
 - **Monorepo:** The application is structured as a monorepo, allowing for the management of multiple packages or modules within a single repository. This helps to organize the codebase and streamline the development process.
-- 
 Overall, the system architecture of the Transafer digital wallet application is designed to be scalable, secure, and efficient, providing users with a seamless and reliable platform for managing their finances online.
 
 
