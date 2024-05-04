@@ -124,3 +124,6 @@ jobs:
 
 This workflow will trigger on every push to the `main` branch, install dependencies, and run tests. You can expand this workflow to include deployment steps or additional testing suites as needed.
 
+## Contributors
+
+- [Aadarsh Sharma](https://github.com/aadarsharma)
