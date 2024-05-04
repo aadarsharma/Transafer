@@ -92,3 +92,35 @@ Try logging in using the following credentials:
 
 - Phone: 1111111111
 - Password: alice (See `seed.ts` for more details)
+
+## GitHub Actions
+
+For GitHub Actions, you can set up workflows to automate tasks like testing, building, and deployment. Depending on your requirements, you can create workflows to run tests on pull requests, deploy to staging environments, or trigger deployments to production after successful tests.
+
+For example, you can create a workflow YAML file in your `.github/workflows` directory to define a CI/CD pipeline. Here's a basic example:
+
+```yaml
+name: CI
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Install dependencies
+      run: npm install
+
+    - name: Run tests
+      run: npm test
+```
+
+This workflow will trigger on every push to the `main` branch, install dependencies, and run tests. You can expand this workflow to include deployment steps or additional testing suites as needed.
+
